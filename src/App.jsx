@@ -6,6 +6,7 @@ import Footer from "./atoms/footer";
 import Avatar from "./atoms/avatar";
 import Card from "./atoms/card";
 import Badge from "./atoms/badge";
+import Counter from "./atoms/counter";
 
 import Mariposas from './mariposas.webp'
 
@@ -24,9 +25,9 @@ function App() {
                 <Card title="Bombycoidea" content="La fascinante migración de las mariposas"/>
                 <Card title="Copromorphoidea" content="la fascinante migración de una especie "/>
                 <Card title="Epermenioidea" content="Las decisivas manchas blancas "/>
-
+                <Counter />
                 {/* Badge */}
-                <Badge label="Beautiful"/>
+                <Badge label="Enviar"/>
             </div>
 
                 {/* Footer */}

@@ -24,8 +24,7 @@ function App() {
                 {/* Card */}
                 <Card title="Bombycoidea" content="La fascinante migración de las mariposas"/>
                 <Card title="Copromorphoidea" content="la fascinante migración de una especie "/>
-                <Card title="Epermenioidea" content="Las decisivas manchas blancas "/>
-                <Counter />
+                <Card title="Epermenioidea" content={<Counter/>}/>
                 {/* Badge */}
                 <Badge label="Enviar"/>
             </div>

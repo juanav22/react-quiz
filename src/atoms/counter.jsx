@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/counter.css"
+
 function Counter() {
   const [count, setCount] = React.useState (0);
   const decrementCount = () => {

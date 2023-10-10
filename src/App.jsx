@@ -1,14 +1,15 @@
 import React from 'react';
 
-import './App.css';
-import Header from "./atoms/header";
-import Footer from "./atoms/footer";
 import Avatar from "./atoms/avatar";
-import Card from "./atoms/card";
 import Badge from "./atoms/badge";
+import Card from "./atoms/card";
 import Counter from "./atoms/counter";
+import Footer from "./atoms/footer";
+import Header from "./atoms/header";
 
 import Mariposas from './mariposas.webp'
+
+import './App.css';
 
 function App() {
     return (
